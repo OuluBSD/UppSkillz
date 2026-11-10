@@ -10,3 +10,6 @@ stated otherwise. Verdicts: **adapted** (rewritten, stale parts fixed), **new**
 | upp-value-json | `skills/upp-value.md`; T00 traps | adapted | 2026-11-10 | JSON helpers checked in upstream JSON.h |
 | upp-sync-primitives | T00 traps; `Core.h` | new | 2026-11-10 | MT-always rule (stale "MT required" text dropped) |
 | upp-build-packaging | `skills/build-with-uppbuilder.md`, `skills/build-upp-package.md` (superseded `bin/build` section), `rules/upp-flags.md` | adapted | 2026-11-10 | MT-required and bin/build paths dropped; INITBLOCK and -a checked against project code |
+| skylark-witz-templates | `ai-upp/ai/skills/skylark-web-ui.md` (witz section); project witz findings (WORKER-LOG) | adapted | 2026-11-10 | Witz reference checked upstream; whitespace findings are recorded test results |
+| skylark-engine-fence | `ai-upp/ai/skills/skylark-web-ui.md`; `BazaarCore` Dispatch.cpp | adapted | 2026-11-10 | Origin and CSRF conditions corrected to what the gateway does; POST_RAW caveat stated |
+| socket-and-console-hygiene | T00 traps | new | 2026-11-10 | EINPROGRESS and accepted-socket behavior checked in upstream Socket.cpp and Host.cpp |
