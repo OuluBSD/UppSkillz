@@ -24,6 +24,9 @@ description: Building U++ packages with uppbuilder. Multithreading is always on,
   ```
 
 - Build and run from the assembly, not from a monorepo `bin/build` wrapper.
+- Listing `.css`, `.js`, or `.html` files in a `.upp` does not deploy them. The Skylark
+  package's copy recipes for those types are `custom(_NEVER)`. Deploy static files with
+  an explicit step.
 
 ## Sources
 
@@ -37,10 +40,12 @@ description: Building U++ packages with uppbuilder. Multithreading is always on,
 ## Stale guidance dropped
 
 - "MT required" in package guidance (multithreading is unconditional now).
+- "Listing CSS/JS in .upp deploys them" (copy recipes are `custom(_NEVER)`).
 - `bin/build` and `stdsrc/**` monorepo paths (replaced by the uppbuilder assembly model).
 
 ## Verified
 
+- `Skylark.upp` lines 33-41: `custom(_NEVER)` for `.css`, `.html`, `.js`.
 - `INITBLOCK` and `INITBLOCK_(x)` exist in upstream `Defs.h` (lines 100-104).
 - `main.cpp` in CompanySkylark is guarded by `#ifdef flagMAIN`, and its package keeps
   a mainconfig, as the comment there states.
