@@ -52,6 +52,6 @@ description: Building U++ packages with uppbuilder. Multithreading is always on,
 - `INITBLOCK_(CompanySkylark)` is used in `CompanyModule.cpp`.
 - The `-a` commands match CompanySkylark `AGENTS.md`.
 - Known project issue, not changed here: `CompanySkylark.upp` still declares
-  `mainconfig "" = "MT";`. Planner decision needed (recorded in the step-0 backlog work).
+  `mainconfig "" = "MT";`. Planner decision needed (SkylarkManager `tasks/takeover/BACKLOG.md`, item 9).
 
 Provenance: [HISTORY.md](../../HISTORY.md).
