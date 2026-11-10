@@ -9,3 +9,4 @@ stated otherwise. Verdicts: **adapted** (rewritten, stale parts fixed), **new**
 | upp-containers-ownership | `rules/movable-and-ownership.md`, `skills/memory-safe-containers.md`; T00 traps | adapted | 2026-11-10 | Vector move-only rule checked in upstream Vcont.h |
 | upp-value-json | `skills/upp-value.md`; T00 traps | adapted | 2026-11-10 | JSON helpers checked in upstream JSON.h |
 | upp-sync-primitives | T00 traps; `Core.h` | new | 2026-11-10 | MT-always rule (stale "MT required" text dropped) |
+| upp-build-packaging | `skills/build-with-uppbuilder.md`, `skills/build-upp-package.md` (superseded `bin/build` section), `rules/upp-flags.md` | adapted | 2026-11-10 | MT-required and bin/build paths dropped; INITBLOCK and -a checked against project code |
