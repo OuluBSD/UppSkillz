@@ -45,3 +45,5 @@ $endfor
 - The line-join, `$var`-before-delimiter, and trailing-`$endif` findings are the
   project's recorded test results. They are not re-derived here. Re-check them against a
   rendered output before relying on the exact whitespace.
+
+Provenance: [HISTORY.md](../../HISTORY.md).

@@ -39,3 +39,5 @@ Use `clone(...)` for the members you want duplicated. Do not rely on an implicit
 - Read in upstream `Vcont.h`: the move constructor and move assignment are declared,
   and the tagged deep-copy constructor is declared. No plain copy constructor is declared.
 - The pattern exists in `WebAccounts.h` (`clone` used for `roles` and `recovery_hashes`).
+
+Provenance: [HISTORY.md](../../HISTORY.md).

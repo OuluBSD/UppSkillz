@@ -30,3 +30,5 @@ description: Socket and console details that cost debugging time. TcpSocket::Con
 - Read in `Host.cpp` line 115: the request timeout is set on the accepted request.
 - The `setvbuf` and zero-wait traps are recorded from project incidents (T00), not
   re-derived here.
+
+Provenance: [HISTORY.md](../../HISTORY.md).

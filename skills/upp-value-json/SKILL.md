@@ -1,6 +1,6 @@
 ---
 name: upp-value-json
-description: U++ Value and JSON pitfalls. Use AsJSON for maps and typed values, not StoreAsJson on a ValueMap; ValueMap operator[](int) is a key lookup, so use GetValue(i) for position.
+description: U++ Value and JSON pitfalls. Use AsJSON for maps and typed values, not StoreAsJson on a ValueMap; indexing a ValueMap by integer is a key lookup, so use GetValue(i) for position.
 ---
 
 # U++ Value and JSON
@@ -39,3 +39,5 @@ Value first = back.GetValue(0);             // positional, not back[0]
   and `LoadFromJson` returns false on `ValueTypeError` and `JsonizeError`.
 - The `operator[](int)` key behavior is recorded from a project defect (T00), not
   re-derived here.
+
+Provenance: [HISTORY.md](../../HISTORY.md).

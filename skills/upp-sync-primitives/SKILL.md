@@ -25,3 +25,5 @@ description: Synchronization primitives in U++ code. Do not make StaticMutex a n
 - Upstream `ultimatepp/uppsrc/Core/Core.h` defines `_MULTITHREADED` and `MULTITHREADED`
   unconditionally (lines 6-7).
 - The `StaticMutex` member trap is recorded from a project defect (T00). Not re-derived here.
+
+Provenance: [HISTORY.md](../../HISTORY.md).

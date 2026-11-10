@@ -48,3 +48,5 @@ a session from one site does not resolve on another.
 - Read in the gateway: the origin check and the CSRF check, with their conditions.
 - Read in Dispatch.cpp: the identity check is skipped for `post_raw` handlers.
 - The composed smoke checks that a mutation without the token is refused (403).
+
+Provenance: [HISTORY.md](../../HISTORY.md).

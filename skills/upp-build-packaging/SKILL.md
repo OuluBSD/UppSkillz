@@ -48,3 +48,5 @@ description: Building U++ packages with uppbuilder. Multithreading is always on,
 - The `-a` commands match CompanySkylark `AGENTS.md`.
 - Known project issue, not changed here: `CompanySkylark.upp` still declares
   `mainconfig "" = "MT";`. Planner decision needed (recorded in the step-0 backlog work).
+
+Provenance: [HISTORY.md](../../HISTORY.md).
