@@ -13,3 +13,4 @@ stated otherwise. Verdicts: **adapted** (rewritten, stale parts fixed), **new**
 | skylark-witz-templates | `ai-upp/ai/skills/skylark-web-ui.md` (witz section); project witz findings (WORKER-LOG) | adapted | 2026-11-10 | Witz reference checked upstream; whitespace findings are recorded test results |
 | skylark-engine-fence | `ai-upp/ai/skills/skylark-web-ui.md`; `BazaarCore` Dispatch.cpp | adapted | 2026-11-10 | Origin and CSRF conditions corrected to what the gateway does; POST_RAW caveat stated |
 | socket-and-console-hygiene | T00 traps | new | 2026-11-10 | EINPROGRESS and accepted-socket behavior checked in upstream Socket.cpp and Host.cpp |
+| uppoverlay-catalog | `OuluBSD/UppOverlay`, `OuluBSD/UppBuilder` Task 09 | new | 2026-11-10 | CapitalCase taxonomy, .escbuild Esc language specs, target profiles, and virtual providers |
