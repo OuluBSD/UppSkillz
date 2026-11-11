@@ -19,3 +19,8 @@ has one authoritative home here.
   code, and what rests on recorded project experience.
 - Repo-specific policy stays in the repo (`ai/**` in SkylarkManager and CompanySkylark).
   Those repos point here for generic material.
+
+## Checks
+
+- `python3 ai/tools/check_links.py`: every relative Markdown link in the repo must resolve.
+  Code spans and fenced blocks are skipped, so code such as `int(x)` is not read as a link.
